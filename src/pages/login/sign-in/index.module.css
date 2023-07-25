@@ -1,0 +1,24 @@
+.login-form-container {
+    margin-top: 50px;
+}
+.login-label {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 7px;
+}
+.login-btn {
+    width: 320px;
+    background-color: #0052FF;
+    height: auto;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 22px;
+    border-radius: 6px;
+}
+.login-input {
+    height: 42px;
+    border-radius: 8px;
+    border: 2px solid #d3d3e4;
+}

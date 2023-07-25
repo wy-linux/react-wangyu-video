@@ -1,0 +1,22 @@
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.navigation-container a {
+    text-decoration: none;
+    color: black;
+}
+.navigation-container .fa-angle-double-left {
+    font-family: FontAwesome;
+    cursor:pointer;
+}
+.bar-name {
+
+}

@@ -1,0 +1,10 @@
+.error-info-container {
+    text-align: left;
+    font-size: 14px;
+}
+.error-icon {
+    margin-right: 7px;
+}
+.error-text {
+    font-size: 10px;
+}

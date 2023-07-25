@@ -1,0 +1,1 @@
+export const BASE_URL = "https://www.wangyu.cloud:5000"

@@ -1,0 +1,72 @@
+.login-page {
+    /* background-color: #ACC6FF; */
+    /* height: 100vh; */
+    /* margin-top: 76px;   */
+    position: relative;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container, .right-container {
+    display: inline-block;
+}
+
+.left-container {
+    width: 736px;
+}
+
+.right-container {
+    /* padding: 0 30px 0 0; */
+    background-color: #FFF;
+    border-radius: 8px;
+}
+
+.hrm-logo-container {
+    margin: 28px 0 0 28px;
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-weight: 600;
+}
+
+.hrm-logo {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    margin-right: 0px;
+}
+.hrm-logo-img {
+    width: 46px;
+}
+.hrm-title {
+    font-family: PingFangSC;
+    font-size: 20px;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hrm-brief-title {
+    font-size: 30px;
+    color: #333;
+    line-height: 58px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-left: 85px;
+    width: 500px;
+}
+
+.hrm-desc {
+    font-size: 18px;
+    line-height: 34px;
+    color: #333;
+    font-weight: 500;
+    margin-top: 75px;
+    margin-left: 85px;
+    width: 500px;
+}
