@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState} from 'react'
 import { Link } from "react-router-dom";
 import { getVideoList } from '../../api/video'
 import { Autoplay } from 'swiper'
@@ -20,21 +20,16 @@ const Video: React.FC = function () {
     }, []) 
     //处理滚动
     useEffect(() => {
-        let scrollY: number = +(localStorage.getItem('scrollY') ?? 0)
-        setTimeout(() => {
-            window.scrollTo({
-                top: scrollY
-            })
-        }, 100)
+        if(!videoList.length) return 
+        window.scrollTo(0, +(localStorage.getItem('scrollY') ?? 0))
         const handleScroll = () => {
-            scrollY = window.scrollY
+            localStorage.setItem('scrollY', `${window.scrollY}`)
         }
         window.addEventListener('scroll', handleScroll)
         return () => {
             window.removeEventListener('scroll', handleScroll)
-            localStorage.setItem('scrollY', `${scrollY}`)
         }
-    }, [])
+    }, [videoList])
 
     return (
         <div className="Home">
